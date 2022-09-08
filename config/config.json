@@ -1,0 +1,8 @@
+{
+  "development": {
+    "host": "localhost",
+    "username": "root",
+    "password": "",
+    "database": "th4"
+  }
+}

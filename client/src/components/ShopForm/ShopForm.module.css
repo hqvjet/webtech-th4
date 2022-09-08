@@ -1,0 +1,25 @@
+.main {
+    border: 1px solid black;
+    width: 80vw;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70vw;
+    height: 100%;
+}
+
+.linear {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.footer {
+    text-align: right;
+    font-size: 0.5em;
+}
+

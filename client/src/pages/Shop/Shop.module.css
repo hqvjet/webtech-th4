@@ -1,0 +1,22 @@
+#name {
+    width: 20%;
+}
+
+#quantity {
+    width: 5%;
+}
+
+.label {
+    width: 20%;
+    text-align: right;
+}
+
+.label-container {
+    display: block;
+}
+
+#submit {
+    display: block;
+}
+
+
