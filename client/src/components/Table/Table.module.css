@@ -1,0 +1,44 @@
+.table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.th {
+    text-align: center;
+    margin: 200px;
+    border-style: hidden hidden solid hidden;
+}
+
+.row1 {
+    width: 40%;
+    text-align: left;
+}
+
+.row2, .row3, .row4 {
+    width: 20%;
+    text-align: center;
+}
+
+.row4 {
+    text-align: right !important;
+}
+
+.tr {
+    margin: 200px;
+}
+
+.tbody {
+    margin: 200px;
+}
+
+
+.subtotal {
+    font-weight: bold;
+    border-style: solid hidden hidden hidden;
+    text-align: center;
+}
+
+.input {
+    text-align: right;
+    width:50%
+}

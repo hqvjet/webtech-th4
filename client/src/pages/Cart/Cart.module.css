@@ -1,0 +1,12 @@
+.button {
+    display: block;
+    border: 0 none black;
+    padding-left: 0;
+    text-decoration: underline;
+    color: blue;
+    font-size: 1em;
+}
+
+.button:hover {
+    cursor: pointer;
+}

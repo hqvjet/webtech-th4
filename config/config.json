@@ -1,7 +1,7 @@
 {
   "development": {
     "host": "localhost",
-    "username": "root",
+    "user": "root",
     "password": "",
     "database": "th4"
   }

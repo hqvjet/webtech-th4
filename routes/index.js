@@ -1,12 +1,13 @@
-const router = require('./ItemsRouter')
+const shopRouter = require('./Shop')
+const cartRouter = require("./Cart");
 const PORT = 4000
 
-function route(app) {
-    app.get('/view-cart', router)
-    app.get('/', router)
-    app.post('/', router)
+function routes(app) {
+
+    app.use('/shop', shopRouter)
+    app.use('/view-cart', cartRouter)
 
     app.listen(PORT)
 }
 
-module.exports = route
+module.exports = routes
